@@ -15,10 +15,7 @@ public class VehicleApp {
 
     /**
      * The entry point of the application.
-     * Creates instances of Car and Bike using both default and parameterized constructors,
-     * prompts the user for vehicle details where applicable, and displays the stored information.
-     *
-     * @param args Command-line arguments (unused here)
+     * @param args Command-line arguments
      */
     public static void main(String[] args) {
         VehicleService service = new VehicleService();
