@@ -86,7 +86,7 @@ public class VehicleApp {
         for (int i = 0; i < vehicles.size(); i++) {
             System.out.println("Vehicle " + (i + 1) + ":");
             vehicles.get(i).displayDetails();
-            System.out.println(); // Separator
+            System.out.println(); 
         }
     }
     
