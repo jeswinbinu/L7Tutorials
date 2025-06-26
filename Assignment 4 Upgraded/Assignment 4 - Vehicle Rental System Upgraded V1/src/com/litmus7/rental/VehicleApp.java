@@ -5,11 +5,6 @@ import java.util.Scanner;
 import com.litmus7.rental.dto.*;
 import com.litmus7.rental.service.VehicleService;
 
-/**
- * The main application class to demonstrate functionality of the Vehicle, Car, and Bike classes.
- * This class uses both default and parameterized constructors to create instances of Car and Bike,
- * collects input from the user, and displays vehicle details to the console.
- */
 public class VehicleApp {
 
     /**
