@@ -46,6 +46,9 @@ public class ProductController {
     }
 
     public Response<Void> updateProduct(Product product) {
+        if (product.getPrice() < 0 || product.getStockQuantity() < 0) {
+            return Response.error("Price and stock quantity must be non-negative.");
+        }
         try {
             return productService.updateProduct(product);
         } catch (ServiceException e) {
